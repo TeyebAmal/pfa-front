@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  height : '100%';
+  width : '100%'
+}
+.bottom-position{
+  position:fixed;
+    bottom:0px;
+    width: 90%;
+}
+
+input {
+  --line-color: #ccc;
+  --animating-line-color: rebeccapurple;
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  color : black;
+  transition: --cs .3s cubic-bezier(0.6, 0, 0.2, 1);
+  outline: none;
+}
+
+input:focus {
+  --cs: 1turn;
+  --angle: -78.75deg;
+}
